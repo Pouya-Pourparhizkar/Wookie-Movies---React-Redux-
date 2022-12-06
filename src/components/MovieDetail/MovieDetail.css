@@ -1,0 +1,51 @@
+.movieDetailContainer {
+  position: fixed;
+  top: 105px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background: #e2e2e2;
+  z-index: 9999;
+}
+.detailContainer {
+  display: flex;
+  padding: 5px;
+}
+.imageContainer {
+  float: left;
+}
+.poster {
+  max-height: 400px;
+}
+.starRateContainer {
+  float: right;
+}
+.movieInformationContainer {
+  float: left;
+  padding: 20px;
+}
+.titleContainer {
+  font-size: 23px;
+  display: inline-block;
+}
+.ratingContainer {
+  display: inline-block;
+}
+.directorContainer {
+  margin-top: 10px;
+}
+.castsContainer {
+  margin-top: 10px;
+}
+.overViewContainer {
+  padding-top: 10px;
+  font-size: 16px;
+  text-align: justify;
+}
+.closeButtonContainer {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}

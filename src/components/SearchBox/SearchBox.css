@@ -1,0 +1,17 @@
+.searchBoxContainer {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #d4d4d4;
+  padding: 10px 10px 0 10px;
+  z-index: 99999;
+}
+.applicationNameContainer {
+  float: left;
+}
+.inputContainer {
+  float: right;
+  padding-right: 10px;
+}

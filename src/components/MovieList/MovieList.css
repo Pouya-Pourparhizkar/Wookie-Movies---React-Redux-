@@ -1,0 +1,57 @@
+.movieListContainer {
+  top: 105px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  padding: 5px;
+}
+.isfetchingContainer {
+  width: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NoResultContainer {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+.genreContainer {
+  padding: 5px;
+  margin-bottom: 10px;
+  background: #000000;
+  border-radius: 5px;
+}
+.genreTitle {
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+}
+.moviesContainer {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  padding-top: 5px;
+}
+.moviesContainer::-webkit-scrollbar {
+  height: 2px;
+}
+.moviesContainer::-webkit-scrollbar-button {
+  background: #ccc;
+}
+.moviesContainer::-webkit-scrollbar-track-piece {
+  background: #888;
+}
+.moviesContainer::-webkit-scrollbar-thumb {
+  background: #eee;
+}
+​.imageContainer {
+  float: left;
+}
+.movieImage {
+  max-width: 250px;
+  max-height: 200px;
+  margin: 5px;
+  cursor: pointer;
+}
